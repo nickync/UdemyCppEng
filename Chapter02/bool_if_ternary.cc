@@ -6,6 +6,8 @@ int main()
     bool b1 = true;
     bool b2 = false;
 
+    bool c1 = (b1 || b2) && b1;
+
     if (b1)
     {
         std::cout << "Printy Printy\n";

@@ -17,7 +17,7 @@ struct User
 int main()
 {
     // User user1 = {Status::Connected, 42U};
-    User user1 = {.status = Status::Connected, .id = 42U}; // C++20
+    User user1 = {.status = Status::Connected, .id = 88U}; // C++20
 
     std::cout << user1.id << '\n';
 
