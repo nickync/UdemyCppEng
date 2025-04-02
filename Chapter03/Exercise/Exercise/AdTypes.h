@@ -27,6 +27,9 @@ struct VehicleType
 
 struct NeighborVehiclesType
 {
+    std::array<VehicleType, 2> Left = {};
+    std::array<VehicleType, 2> Right = {};
+    std::array<VehicleType, 2> Center = {};
 };
 
 } // namespace Types
